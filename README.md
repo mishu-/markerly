@@ -13,3 +13,6 @@ To install all the other requirements and start server just run:
 npm install
 node_modules/.bin/gulp
 ```
+
+### How it looks like right now
+![Version 0.0.1](/docs/screenshot_0.0.1.png "Version 0.0.1")
