@@ -1,0 +1,52 @@
+{
+  "name": "dot",
+  "version": "0.0.1",
+  "description": "dot is a node.js web-framework, based entirely on building SPA(single page apps), using only websockets",
+  "main": "dot.js",
+  "scripts": {
+    "install": "napa"
+  },
+  "napa": {
+    "socket.io-client": "LearnBoost/socket.io-client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x4139/dot.git"
+  },
+  "keywords": [
+    "angular.js",
+    "browserify",
+    "websockets",
+    "connect.js",
+    "socket.io",
+    "gulp",
+    "coffeescript",
+    "jade",
+    "stylus",
+    "banana",
+    "0x4139"
+  ],
+  "author": "0x4139@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0x4139/dot/issues"
+  },
+  "homepage": "https://github.com/0x4139/dot",
+  "devDependencies": {
+    "gulp-util": "~2.2.14",
+    "gulp": "~3.5.2",
+    "gulp-jade": "~0.4.1",
+    "gulp-browserify": "~0.4.2",
+    "coffeeify": "~0.6.0",
+    "gulp-nodemon": "~0.1.2",
+    "napa": "~0.3.0"
+  },
+  "dependencies": {
+    "connect": "~2.12.0",
+    "coffee-script": "~1.7.1",
+    "gulp-livereload": "~1.0.1",
+    "socket.io": "~0.9.16",
+    "elasticsearch": "~1.5.6",
+    "jquery": "~2.1.0"
+  }
+}

@@ -1,0 +1,19 @@
+html
+  head
+    script(src='/socket.io/socket.io.js')
+    script(src='https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false')
+    script.
+     document.write('<script src="//' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+  body
+    h1(id='server_status') No Status
+    form(id='comment-form')
+      div(data-role='fieldcontain')
+          fieldset(data-role='controlgroup')
+           label(for='comment') Comment
+           input(id='comment',type='text',value='',placeholder='tell me something..')
+      div(data-role='fieldcontain')
+        input(id='send_comment',type='submit',value='Send',data-transition='fade', data-theme='c')
+    hr
+    div(id='map-canvas')
+
+  script(src='app.coffee')
