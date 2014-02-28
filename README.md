@@ -14,6 +14,9 @@ The aim of this prototype is to showcase ElasticSearch's geo-coordinates based s
 The web framework support is provided by https://github.com/0x4139/dot
 The client server communication is handled by socket.io, while the markers are stored in an ElasticSearch index.
 
+The elasticsearch relevant code is here:
+https://github.com/mishu-/markerly/blob/master/markerly/src/api/app.coffee
+
 ### Install
 You need to have Elasticsearch v1.0.0 installed and running on localhost:9200 for the prototype to work.
 To install all the other requirements and start server just run:
